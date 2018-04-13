@@ -12,5 +12,13 @@
     "shadow"
   ],
   "author": "h_xingzhiyuan@163.com",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhiyuanMain/jQuery_slideHover.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhiyuanMain/jQuery_slideHover/issues"
+  },
+  "homepage": "https://github.com/zhiyuanMain/jQuery_slideHover#readme"
 }
