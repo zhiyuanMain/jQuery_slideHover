@@ -1,0 +1,56 @@
+<!--
+	作者：h_xingzhiyuan@163.com
+	时间：2017-11-06
+	描述：仿百度图片进出效果
+-->
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>仿百度图片进出效果</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+		<link rel="stylesheet" href="assets/css/style.css" />
+	</head>
+
+	<body>
+		<ul class="wrapper" id="wrapper">
+			<li class="item">
+				<a href="http://www.baidu.com/" data-description="这是图片1的描述">
+					<img src="assets/images/img1.jpg" />
+				</a>
+			</li>
+			<li class="item">
+				<a href="http://www.baidu.com/" data-description="这是图片2的描述">
+					<img src="assets/images/img2.jpg" />
+				</a>
+			</li>
+			<li class="item">
+				<a href="http://www.baidu.com/" data-description="这是图片3的描述">
+					<img src="assets/images/img3.jpg" />
+				</a>
+			</li>
+			<li class="item">
+				<a href="http://www.baidu.com/" data-description="这是图片4的描述">
+					<img src="assets/images/img4.jpg" />
+				</a>
+			</li>
+			<li class="item">
+				<a href="http://www.baidu.com/" data-description="这是图片5的超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级超级长描述">
+					<img src="assets/images/img5.jpg" />
+				</a>
+			</li>
+		</ul>
+
+	</body>
+	<script src="assets/js/jquery-1.11.1.min.js"></script>
+	<script src="assets/js/jquery.SlideHover.js"></script>
+	<script>
+		$(function() {
+			var SlideHover = $('#wrapper').slideHover();
+			console.log(SlideHover.slideHover('getOptions'));
+		})
+	</script>
+
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "slidehover",
+  "version": "1.0.0",
+  "description": "slidehover",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "slides",
+    "hover",
+    "shadow"
+  ],
+  "author": "h_xingzhiyuan@163.com",
+  "license": "ISC"
+}
